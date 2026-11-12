@@ -1,0 +1,2 @@
+# walmart-images-Auto
+Smart
