@@ -1,0 +1,22 @@
+# ImageHub — 本地程序数据，绝不上传到 Public 仓库
+.imagehub/
+.venv/
+venv/
+
+# Python 运行产物
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+*.spec
+
+# 操作系统噪声
+Thumbs.db
+desktop.ini
+.DS_Store
+*.log
+
+# 说明：images/ 内的图片是唯一需要提交的内容，不要在这里排除任何图片格式。
+# 目录占位文件 .gitkeep 用于保留空的多级目录结构，程序扫描时应忽略以 . 开头的隐藏文件。
